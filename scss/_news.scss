@@ -1,0 +1,89 @@
+.news{
+    position: relative;
+    height: 920px;
+    width: 100vw;
+     .bottom_picture{
+         position: absolute;
+         height: 50%;
+         background-image: url('../img/bottom_left.png');
+         background-size: cover; 
+         padding: 0;
+         bottom: 0;
+         left: 0;
+     }
+     .top_picture{
+         position: absolute;
+         height: 50%;
+         background-image: url('../img/top_right.png');
+         background-size: cover;
+         padding: 0;
+         top: 0;
+         right: 0;
+     }
+     .top_text{
+         position: absolute;
+         top: 0;
+         left: 0;
+         background: #222222;
+         height: 50%;
+         padding: 0;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         :first-child{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: 400;
+            font-size: 13px;
+            color: #dfdfdf;
+         }
+         h1{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size: 25px;
+            font-weight: 400;
+            color: #fff;
+            width: 80%;
+         }
+         p{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            color: #dfdfdf;
+            width: 80%;
+         }
+     }
+     .bottom_text{
+         background: #f3f3f3;
+         height: 50%;
+         position: absolute;
+         bottom: 0;
+         right: 0;
+         padding: 0;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         :first-child{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: 400;
+            font-size: 13px;
+            color: #4f4f4f;
+         }
+         h1{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size: 25px;
+            font-weight: 400;
+            color: #000;
+            width: 80%;
+         }
+         p{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            color: #4f4f4f;
+            width: 80%;
+         }
+     }
+
+
+}

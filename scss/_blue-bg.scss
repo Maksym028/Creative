@@ -1,0 +1,57 @@
+@mixin agency {
+    display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .imagin{
+                border-radius: 50%;
+                border: 0;
+                background:#2e85aa ;
+                width: 130px;
+                height: 130px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            h2{
+                font-family: 'Nanum Gothic', sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                color: #dfe8ee;
+                text-transform: uppercase;
+                margin-bottom: 15px;
+            }
+            p{
+                font-family: 'Nanum Gothic', sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                color: #dfe8ee;
+                text-align: center
+            }
+}
+.agency{
+    height: 740px;
+    width: 100vw;
+    background: #11749e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .container{
+        h1{
+            z-index: 1;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: 400;
+            font-size: 37.55px;
+            color: #e9f0f4;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 140px;
+        }
+
+        .one, .two, .three, .four{
+            @include agency;
+        }
+    }
+}

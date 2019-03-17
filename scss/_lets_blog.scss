@@ -1,0 +1,123 @@
+.lets_blog{
+    height: 1010px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        h1{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: 400;
+            font-size: 37.55px;
+            color: #222222;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        h2{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: 400;
+            font-size: 30.06px;
+            color: #767676;
+            text-align: center;
+        }
+        .blocks{
+            .first{
+                .picture{
+                    height: 280px;
+                    background-image: url('../img/first.png');
+                    background-size: cover;
+                    background-position: center;
+                }
+                h3{
+                    font-family: 'Nanum Gothic', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    color: #3280a5;
+                }
+                p{
+                    font-family: 'Nanum Gothic', sans-serif;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: #b0b0b0;
+                    text-align: center;
+                }
+            }
+
+            .second{
+                .picture{
+                    height: 280px;
+                    background-image: url('../img/second.png');
+                    background-size: cover;
+                    background-position: center;
+                }
+                h3{
+                    font-family: 'Nanum Gothic', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    color: #3280a5;
+                }
+                p{
+                    font-family: 'Nanum Gothic', sans-serif;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: #b0b0b0;
+                    text-align: center;
+                }
+            }
+
+            .third{
+                .picture{
+                    height: 280px;
+                    background-image: url('../img/third.png');
+                    background-size: cover;
+                    background-position: center;
+                }
+                h3{
+                    font-family: 'Nanum Gothic', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    color: #3280a5;
+                }
+                p{
+                    font-family: 'Nanum Gothic', sans-serif;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: #b0b0b0;
+                    text-align: center;
+                }
+            }
+
+            .fourth{
+                .picture{
+                    height: 280px;
+                    background-image: url('../img/fourth.png');
+                    background-size: cover;
+                    background-position: center;
+                }
+                h3{
+                    font-family: 'Nanum Gothic', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    color: #3280a5;
+                }
+                p{
+                    font-family: 'Nanum Gothic', sans-serif;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: #b0b0b0;
+                    text-align: center;
+                }
+            }
+            
+        }
+    }
+}

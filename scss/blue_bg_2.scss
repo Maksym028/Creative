@@ -1,0 +1,25 @@
+.blue_bg_2{
+    height: 350px;
+    width: 100vw;
+    background: #11749e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        display: flex;
+        justify-content: center;
+        .picture{
+            background-image: url('../img/write.png');
+            background-position: center;
+            background-size: cover;
+            width: 70px;
+            height: 70px;
+        }
+        p{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            color: #d2dfe8;
+        }
+    }
+}
